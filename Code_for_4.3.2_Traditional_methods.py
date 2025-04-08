@@ -18,10 +18,10 @@ POINT_FEATURES_PATH = "C:/Users/Peter Zeng/Desktop/vtry/features/point/"
 LINE_FEATURES_PATH = "C:/Users/Peter Zeng/Desktop/vtry/features/line/"
 LOCAL_REGION_FEATURES_PATH = "C:/Users/Peter Zeng/Desktop/vtry/features/localregion/"
 
-# Pose output path (e.g., saving text or CSV with 2D pose info)
+# Pose output path, saving text info
 POSE_OUTPUT_PATH = "C:/Users/Peter Zeng/Desktop/vtry/pose/"
 
-# Create necessary directories if they don't exist
+# Create directories
 os.makedirs(PREPROCESSED_IMG_PATH, exist_ok=True)
 os.makedirs(EDGEDETECTED_IMG_PATH, exist_ok=True)
 os.makedirs(SEGMENTED_IMG_PATH, exist_ok=True)
